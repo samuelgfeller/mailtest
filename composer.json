@@ -1,0 +1,8 @@
+{
+
+    "require": {
+        "mailgun/mailgun-php": "^2.8",
+        "kriswallsmith/buzz": "^0.17.2",
+        "nyholm/psr7": "^1.0"
+    }
+}
