@@ -7,6 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInite907cab26801cce326c33b24b84ee5e5
 {
     public static $files = array (
+        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         'ddc0a4d7e61c0286f0f8593b1903e894' => __DIR__ . '/..' . '/clue/stream-filter/src/functions.php',
         '8cff32064859f4559445b89279f3199c' => __DIR__ . '/..' . '/php-http/message/src/filters.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
@@ -25,11 +27,6 @@ class ComposerStaticInite907cab26801cce326c33b24b84ee5e5
         'P' => 
         array (
             'Psr\\Http\\Message\\' => 17,
-            'Psr\\Http\\Client\\' => 16,
-        ),
-        'N' => 
-        array (
-            'Nyholm\\Psr7\\' => 12,
         ),
         'H' => 
         array (
@@ -37,16 +34,17 @@ class ComposerStaticInite907cab26801cce326c33b24b84ee5e5
             'Http\\Message\\MultipartStream\\' => 29,
             'Http\\Message\\' => 13,
             'Http\\Discovery\\' => 15,
+            'Http\\Client\\Curl\\' => 17,
             'Http\\Client\\Common\\' => 19,
             'Http\\Client\\' => 12,
+        ),
+        'G' => 
+        array (
+            'GuzzleHttp\\Psr7\\' => 16,
         ),
         'C' => 
         array (
             'Clue\\StreamFilter\\' => 18,
-        ),
-        'B' => 
-        array (
-            'Buzz\\' => 5,
         ),
     );
 
@@ -65,16 +63,7 @@ class ComposerStaticInite907cab26801cce326c33b24b84ee5e5
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-factory/src',
-            1 => __DIR__ . '/..' . '/psr/http-message/src',
-        ),
-        'Psr\\Http\\Client\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/http-client/src',
-        ),
-        'Nyholm\\Psr7\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/nyholm/psr7/src',
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Http\\Promise\\' => 
         array (
@@ -93,6 +82,10 @@ class ComposerStaticInite907cab26801cce326c33b24b84ee5e5
         array (
             0 => __DIR__ . '/..' . '/php-http/discovery/src',
         ),
+        'Http\\Client\\Curl\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/curl-client/src',
+        ),
         'Http\\Client\\Common\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-http/client-common/src',
@@ -101,13 +94,13 @@ class ComposerStaticInite907cab26801cce326c33b24b84ee5e5
         array (
             0 => __DIR__ . '/..' . '/php-http/httplug/src',
         ),
+        'GuzzleHttp\\Psr7\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
         'Clue\\StreamFilter\\' => 
         array (
             0 => __DIR__ . '/..' . '/clue/stream-filter/src',
-        ),
-        'Buzz\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/kriswallsmith/buzz/lib',
         ),
     );
 

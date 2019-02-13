@@ -2,7 +2,7 @@
 
     "require": {
         "mailgun/mailgun-php": "^2.8",
-        "kriswallsmith/buzz": "^0.17.2",
-        "nyholm/psr7": "^1.0"
+        "php-http/curl-client": "^1.7",
+        "guzzlehttp/psr7": "^1.5"
     }
 }
